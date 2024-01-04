@@ -1,9 +1,11 @@
 ## Preview UI
 
 <img width="1552" alt="Tangkapan Layar 2024-01-04 pukul 11 51 50" src="https://github.com/akufikri/nords/assets/108182945/8833ac9e-11e1-4ce3-8691-862957e61793">
-<p>
+<p align="center">
     Inspired UI https://twitter.com</a>
 </p>
+
+=======================================================================================================
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
