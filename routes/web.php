@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BerandaController;
 use App\Http\Controllers\JelajahController;
 use Illuminate\Support\Facades\Route;
@@ -15,5 +16,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [BerandaController::class, 'index']);
-Route::get('/jelajah', [JelajahController::class, 'index']);
+Route::get('/sign', [AuthController::class, 'login'])->name('login');
+Route::post('/login/proccess', [AuthController::class, 'proccess_login']);
+Route::get('/logout', [AuthController::class, 'logout']);
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/', [BerandaController::class, 'index']);
+    Route::get('/jelajah', [JelajahController::class, 'index']);
+});
