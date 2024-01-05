@@ -32,7 +32,6 @@
                             <i class="fa-regular fa-image"></i>
                         </button>
                     </div>
-
                     <div>
                         <button
                             class="text-white bg-indigo-800 hover:bg-indigo-900 px-8 text-base py-2 rounded-full font-medium transition">Posting</button>
