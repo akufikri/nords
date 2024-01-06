@@ -58,7 +58,7 @@
                                 <span
                                     class="absolute px-3 font-medium text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-black">or</span>
                             </div>
-                            <button
+                            <button onclick="location.href='/signup'"
                                 type="button"class="text-white border py-3 rounded-full hover:bg-gray-950 transition font-bold">Buat
                                 Akun</button>
                         </div>

@@ -52,7 +52,7 @@ class AuthController extends Controller
             'email' => [
                 'required',
                 'email',
-                Rule::unique('users')->whereNull('deleted_at'), // Memastikan email belum terdaftar (tanpa memperhatikan soft delete)
+                Rule::unique('users'),
             ],
             'password' => 'required|min:6',
             'name' => 'required',
@@ -82,5 +82,9 @@ class AuthController extends Controller
         Auth::login($user);
 
         return redirect('/');
+    }
+    public function registration()
+    {
+        return view('registration');
     }
 }

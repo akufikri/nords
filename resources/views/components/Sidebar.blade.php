@@ -30,7 +30,7 @@
                   </a>
               </li>
               <li class="mb-4">
-                  <a href=""
+                  <a href="/profile"
                       class="hover:bg-gray-800 transition duration-300 hover:text-gray-300 rounded-full flex gap-5 text-[21px] max-w-40 ps-4 py-2">
                       <i class="fa-solid fa-user mt-1"></i>
                       <span class="font-base">Profile</span>
