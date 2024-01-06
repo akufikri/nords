@@ -1,6 +1,7 @@
 ## Preview UI
 
-<img width="1552" alt="Tangkapan Layar 2024-01-04 pukul 11 51 50" src="https://github.com/akufikri/nords/assets/108182945/8833ac9e-11e1-4ce3-8691-862957e61793">
+![mobile](https://github.com/akufikri/nords/assets/108182945/6a9b104c-ea12-4c95-b6a4-1c7c24eb26c8)
+
 <p align="center">
     Inspired UI https://twitter.com</a>
 </p>
